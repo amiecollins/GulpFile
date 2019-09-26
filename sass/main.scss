@@ -1,0 +1,11 @@
+$main-color: darkred;
+$main-bg: orange;
+
+body { color: $main-color; background-color: $main-bg; }
+
+h1, h2, h3, h4 { color: $main-color; }
+
+.do-transform {
+    transform: translate(50%, 50%);
+    user-select: none;
+}
